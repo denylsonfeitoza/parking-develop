@@ -1,0 +1,724 @@
+_type: export
+__export_format: 4
+__export_date: 2024-10-29T23:25:44.732Z
+__export_source: insomnia.desktop.app:v10.1.1
+resources:
+  - _id: req_6e0c92a1196d445da3b1e2afc903d84f
+    parentId: wrk_9c5ea1429992444292b48e7ef5e2c40f
+    modified: 1730243042052
+    created: 1729970452832
+    url: http://127.0.0.1:8000/api/token/
+    name: Token
+    description: ""
+    method: POST
+    body:
+      mimeType: application/json
+      text: |
+        {
+            "username": "testuser",
+            "password": "1testpass"
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/10.1.1
+    authentication: {}
+    metaSortKey: -1730029079194
+    isPrivate: false
+    pathParameters: []
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: wrk_9c5ea1429992444292b48e7ef5e2c40f
+    parentId: null
+    modified: 1727304073442
+    created: 1727304073442
+    name: my-spec.yaml
+    description: ""
+    scope: design
+    _type: workspace
+  - _id: req_d2f2bfdbd6c247a78fe7a57d9891d793
+    parentId: fld_fee6999b275d4da9ad23c0586fe7073b
+    modified: 1730243862595
+    created: 1730069424650
+    url: http://127.0.0.1:8000/api/tickets/
+    name: Criar Ticket
+    description: ""
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        	{
+        		"valor_final": 5.0,
+        		"modelo": "Fiat Cinza",
+        		"placa": "OOO-OO43O",
+        		"hora_entrada": "2024-10-27T11:15:00Z",
+        		"hora_saida": "2024-10-28T12:15:10Z",
+        		"valor": 5.0,
+        		"vaga": 10
+        	}
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/10.1.1
+        id: pair_ca97756e371046b9852ff5eecb5efcbe
+    authentication: {}
+    metaSortKey: -1729973619122
+    isPrivate: false
+    pathParameters: []
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: fld_fee6999b275d4da9ad23c0586fe7073b
+    parentId: wrk_9c5ea1429992444292b48e7ef5e2c40f
+    modified: 1730244041057
+    created: 1729973611898
+    name: Ticket
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1730029079169
+    _type: request_group
+  - _id: req_e4a8feee59424ea0b9fbed52ab40f097
+    parentId: fld_fee6999b275d4da9ad23c0586fe7073b
+    modified: 1730029162945
+    created: 1729970908122
+    url: http://127.0.0.1:8000/api/tickets/
+    name: Listar Tickets
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers:
+      - name: User-Agent
+        value: insomnia/10.1.1
+        id: pair_ca97756e371046b9852ff5eecb5efcbe
+    authentication: {}
+    metaSortKey: -1729973619022
+    isPrivate: false
+    pathParameters: []
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_8d4aaea9f6f3448db58fa85fbf47519d
+    parentId: fld_fee6999b275d4da9ad23c0586fe7073b
+    modified: 1730243964998
+    created: 1730243960784
+    url: http://127.0.0.1:8000/api/tickets/4/
+    name: Alterar Ticket
+    description: ""
+    method: PUT
+    body: {}
+    parameters: []
+    headers:
+      - name: User-Agent
+        value: insomnia/10.1.1
+        id: pair_ca97756e371046b9852ff5eecb5efcbe
+    authentication: {}
+    metaSortKey: -1729972212671.75
+    isPrivate: false
+    pathParameters: []
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_09285dfdd2164cf08882395df713586e
+    parentId: fld_fee6999b275d4da9ad23c0586fe7073b
+    modified: 1730243874681
+    created: 1730243837934
+    url: http://127.0.0.1:8000/api/tickets/4/
+    name: Deletar Tickets
+    description: ""
+    method: DELETE
+    body: {}
+    parameters: []
+    headers:
+      - name: User-Agent
+        value: insomnia/10.1.1
+        id: pair_ca97756e371046b9852ff5eecb5efcbe
+    authentication: {}
+    metaSortKey: -1729970806321.5
+    isPrivate: false
+    pathParameters: []
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_5b1bffb308b540b091d59516c0e30607
+    parentId: fld_a224064d562947f1a3307f5e42bcab00
+    modified: 1729948425358
+    created: 1727305788788
+    url: http://127.0.0.1:8000/api/parkings/
+    name: Criar Estacionamento
+    description: ""
+    method: POST
+    body:
+      mimeType: application/json
+      text: |
+        {
+            "nome": "Estacionamento 1",
+            "hour_price": 5.0 
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/10.0.0
+    authentication: {}
+    metaSortKey: -1729946691001
+    isPrivate: false
+    pathParameters: []
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: fld_a224064d562947f1a3307f5e42bcab00
+    parentId: wrk_9c5ea1429992444292b48e7ef5e2c40f
+    modified: 1730244033599
+    created: 1729946685007
+    name: Estacionamento
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1730029079144
+    _type: request_group
+  - _id: req_1806618d917d4fd79a0e9c6fddbd5d4f
+    parentId: fld_a224064d562947f1a3307f5e42bcab00
+    modified: 1729946707094
+    created: 1729945720304
+    url: http://127.0.0.1:8000/api/parkings/
+    name: Listar Estacionamentos
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers:
+      - name: User-Agent
+        value: insomnia/10.0.0
+    authentication: {}
+    metaSortKey: -1729946690951
+    isPrivate: false
+    pathParameters: []
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_51e89e9cafc948b088b3f0a43b4e2c1d
+    parentId: fld_a224064d562947f1a3307f5e42bcab00
+    modified: 1730243985665
+    created: 1729945885577
+    url: http://127.0.0.1:8000/api/parkings/4/
+    name: Alterar Estacionamentos
+    description: ""
+    method: PUT
+    body:
+      mimeType: application/json
+      text: |
+        {
+            "nome": "Estacionamento Teste",
+            "hour_price": 10
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/10.0.0
+    authentication: {}
+    metaSortKey: -1729946690901
+    isPrivate: false
+    pathParameters: []
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_6706b958985941a7b241d371fe88091a
+    parentId: fld_a224064d562947f1a3307f5e42bcab00
+    modified: 1729948149105
+    created: 1729945862198
+    url: http://127.0.0.1:8000/api/parkings/3/
+    name: Excluir Estacionamentos
+    description: ""
+    method: DELETE
+    body: {}
+    parameters: []
+    headers:
+      - name: User-Agent
+        value: insomnia/10.0.0
+    authentication: {}
+    metaSortKey: -1729946690801
+    isPrivate: false
+    pathParameters: []
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_e3d28271a3fe4d0a9f88dc2d2995e3b3
+    parentId: fld_514beace467f475987bbe48369e4842c
+    modified: 1729948810613
+    created: 1729946741403
+    url: http://127.0.0.1:8000/api/subscription-plans/
+    name: Criar Assinatura
+    description: ""
+    method: POST
+    body:
+      mimeType: application/json
+      text: |
+        {
+            "name": "Plano Semanal",
+            "price": 15,
+            "duration": 7
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/10.0.0
+    authentication: {}
+    metaSortKey: -1729946751247
+    isPrivate: false
+    pathParameters: []
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: fld_514beace467f475987bbe48369e4842c
+    parentId: wrk_9c5ea1429992444292b48e7ef5e2c40f
+    modified: 1730244036142
+    created: 1729946720729
+    name: Assinatura
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1730029079119
+    _type: request_group
+  - _id: req_8571e5a34a5842829ec1bea9e3561636
+    parentId: fld_514beace467f475987bbe48369e4842c
+    modified: 1729946866531
+    created: 1729946861073
+    url: http://127.0.0.1:8000/api/subscription-plans/
+    name: Listar Assinaturas
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers:
+      - name: User-Agent
+        value: insomnia/10.0.0
+    authentication: {}
+    metaSortKey: -1729946721124
+    isPrivate: false
+    pathParameters: []
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_422b6e1677da491d95474793f671f81c
+    parentId: fld_514beace467f475987bbe48369e4842c
+    modified: 1730243975994
+    created: 1729946988763
+    url: http://127.0.0.1:8000/api/subscription-plans/1/
+    name: Alterar Assinatura
+    description: ""
+    method: PUT
+    body:
+      mimeType: application/json
+      text: |-
+        {
+            "name": "Plano Mensal",
+            "price": 50,
+            "duration": 30
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/10.0.0
+    authentication: {}
+    metaSortKey: -1729946713593.25
+    isPrivate: false
+    pathParameters: []
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_e66412e4b77b43ee8eb3a8d1cde74f6f
+    parentId: fld_514beace467f475987bbe48369e4842c
+    modified: 1729948653839
+    created: 1729946920819
+    url: http://127.0.0.1:8000/api/subscription-plans/2/
+    name: Excluir Assinatura
+    description: ""
+    method: DELETE
+    body: {}
+    parameters: []
+    headers:
+      - name: User-Agent
+        value: insomnia/10.0.0
+    authentication: {}
+    metaSortKey: -1729946706062.5
+    isPrivate: false
+    pathParameters: []
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_acbaa7de1552457a95b58c498060d955
+    parentId: fld_a42b8384635b4ba19913dd5c1322da98
+    modified: 1730034899001
+    created: 1729967980133
+    url: http://127.0.0.1:8000/api/subscribers/
+    name: Definir Assinante
+    description: ""
+    method: POST
+    body:
+      mimeType: application/json
+      text: |
+        {
+          "user": 2,
+          "subscription_plan": 3
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/10.0.0
+    authentication: {}
+    metaSortKey: -1729967993821
+    isPrivate: false
+    pathParameters: []
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: fld_a42b8384635b4ba19913dd5c1322da98
+    parentId: wrk_9c5ea1429992444292b48e7ef5e2c40f
+    modified: 1730244038247
+    created: 1729967990085
+    name: Assinante
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1730029079106.5
+    _type: request_group
+  - _id: req_88074c2e0a60441593124c54f1b765be
+    parentId: fld_a42b8384635b4ba19913dd5c1322da98
+    modified: 1730030674156
+    created: 1730030667176
+    url: http://127.0.0.1:8000/api/subscribers/
+    name: Listar Assinantes
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers:
+      - name: User-Agent
+        value: insomnia/10.0.0
+    authentication: {}
+    metaSortKey: -1729962683177.5
+    isPrivate: false
+    pathParameters: []
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_73aaf80fbcc8478a82aa17cf43ee955d
+    parentId: fld_a42b8384635b4ba19913dd5c1322da98
+    modified: 1730244109044
+    created: 1730244106393
+    url: http://127.0.0.1:8000/api/subscribers/
+    name: Deletar Assinante
+    description: ""
+    method: DELETE
+    body: {}
+    parameters: []
+    headers:
+      - name: User-Agent
+        value: insomnia/10.0.0
+    authentication: {}
+    metaSortKey: -1729960027855.75
+    isPrivate: false
+    pathParameters: []
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_0d93932619434bfa8cca41f3e198df34
+    parentId: fld_a42b8384635b4ba19913dd5c1322da98
+    modified: 1730032986838
+    created: 1729968346812
+    url: http://127.0.0.1:8000/api/subscriber/available-parkings/
+    name: Estacionamento Disponível para Assinantes
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers:
+      - name: User-Agent
+        value: insomnia/10.0.0
+        id: pair_520c2295025a4e039de0b8f09ca29aa7
+        disabled: false
+      - id: pair_7cd9f2834e184e969907cae4ece09f67
+        name: HTTP_AUTHORIZATION
+        value: Token bf59e4593f40243e01825877df20af92a908ac98
+        description: ""
+        disabled: false
+    authentication: {}
+    metaSortKey: -1729957372534
+    isPrivate: false
+    pathParameters: []
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_af8df72f7fc641dd9c6ecc268e3ac0ed
+    parentId: fld_dbee050449df4e59bcf6983514ac46c5
+    modified: 1730029097848
+    created: 1730028556412
+    url: http://127.0.0.1:8000/api/parking-spaces/pcd/
+    name: Listar vagas PCD
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers:
+      - name: User-Agent
+        value: insomnia/10.1.1
+    authentication: {}
+    metaSortKey: -1730029085190
+    isPrivate: false
+    pathParameters: []
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: fld_dbee050449df4e59bcf6983514ac46c5
+    parentId: wrk_9c5ea1429992444292b48e7ef5e2c40f
+    modified: 1730029079094
+    created: 1730029079094
+    name: Vagas PCD
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1730029079094
+    _type: request_group
+  - _id: req_ccad525346a941389464ec7129ce826a
+    parentId: fld_c9ac11e17d664e0aab0a61619d6ce8a1
+    modified: 1730034610762
+    created: 1730033213797
+    url: http://127.0.0.1:8000/api/cars/
+    name: Cadastrar Carro de Assinante
+    description: ""
+    method: POST
+    body:
+      mimeType: application/json
+      text: |
+        {
+          "subscriber": 1,
+          "modelo": "Toyota Corolla",
+          "placa": "ABC-1234",
+          "cor": "Azul"
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+        id: pair_0347a6b01fd44052aef8ff617cde6761
+      - name: User-Agent
+        value: insomnia/10.1.1
+        id: pair_b42fc589a1ed4793934c3cdf8f7dd403
+    authentication: {}
+    metaSortKey: -1730034610627
+    isPrivate: false
+    pathParameters: []
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: fld_c9ac11e17d664e0aab0a61619d6ce8a1
+    parentId: wrk_9c5ea1429992444292b48e7ef5e2c40f
+    modified: 1730244029749
+    created: 1730034604193
+    name: Carro Assinante
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1729946702868
+    _type: request_group
+  - _id: req_ad2e9a5d3de84f1395d78abb2330a25e
+    parentId: fld_c9ac11e17d664e0aab0a61619d6ce8a1
+    modified: 1730034690898
+    created: 1730034642536
+    url: http://127.0.0.1:8000/api/cars/
+    name: Listar Carro Assinante
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers:
+      - name: User-Agent
+        value: insomnia/10.1.1
+    authentication: {}
+    metaSortKey: -1730034610527
+    isPrivate: false
+    pathParameters: []
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_1523646ae58e4c5ba8e6e78518a52339
+    parentId: fld_c9ac11e17d664e0aab0a61619d6ce8a1
+    modified: 1730034808601
+    created: 1730034804217
+    url: http://127.0.0.1:8000/api/cars/
+    name: Atualizar Carro Assinante
+    description: ""
+    method: PUT
+    body: {}
+    parameters: []
+    headers:
+      - name: User-Agent
+        value: insomnia/10.1.1
+    authentication: {}
+    metaSortKey: -1730033229192.75
+    isPrivate: false
+    pathParameters: []
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_81b35fd4617a4ab9b846c13657fa0585
+    parentId: fld_c9ac11e17d664e0aab0a61619d6ce8a1
+    modified: 1730034728464
+    created: 1730034708621
+    url: http://127.0.0.1:8000/api/cars/
+    name: Excluir Carro Assinante
+    description: ""
+    method: DELETE
+    body: {}
+    parameters: []
+    headers:
+      - name: User-Agent
+        value: insomnia/10.1.1
+    authentication: {}
+    metaSortKey: -1730031847858.5
+    isPrivate: false
+    pathParameters: []
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: env_f71fdc2aae55fdd341219f7b3a35977e59c48bdb
+    parentId: wrk_9c5ea1429992444292b48e7ef5e2c40f
+    modified: 1727304073451
+    created: 1727304073451
+    name: Base Environment
+    data: {}
+    dataPropertyOrder: null
+    color: null
+    isPrivate: false
+    metaSortKey: 1727304073451
+    _type: environment
+  - _id: jar_f71fdc2aae55fdd341219f7b3a35977e59c48bdb
+    parentId: wrk_9c5ea1429992444292b48e7ef5e2c40f
+    modified: 1729973661194
+    created: 1727304073455
+    name: Default Jar
+    cookies:
+      - key: csrftoken
+        value: w432vzDIs9XPaIsLTmHuSly9jzcFWQc0
+        expires: 2025-10-25T20:14:21.000Z
+        maxAge: 31449600
+        domain: 127.0.0.1
+        path: /
+        hostOnly: true
+        creation: 2024-10-26T18:58:47.058Z
+        lastAccessed: 2024-10-26T20:14:21.193Z
+        sameSite: lax
+        id: 2743e898-6b32-427c-8a8c-fcd1999931d5
+    _type: cookie_jar
+  - _id: spc_b0fac498f94a44a2b5f3b931ea238f37
+    parentId: wrk_9c5ea1429992444292b48e7ef5e2c40f
+    modified: 1729884606861
+    created: 1727304073447
+    fileName: my-spec.yaml
+    contents: ""
+    contentType: yaml
+    _type: api_spec
