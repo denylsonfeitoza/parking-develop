@@ -1,10 +1,10 @@
 _type: export
 __export_format: 4
-__export_date: 2024-10-29T23:25:44.732Z
+__export_date: 2024-11-01T10:21:06.060Z
 __export_source: insomnia.desktop.app:v10.1.1
 resources:
-  - _id: req_6e0c92a1196d445da3b1e2afc903d84f
-    parentId: wrk_9c5ea1429992444292b48e7ef5e2c40f
+  - _id: req_cebc86c7944f4477a2c8ea92963cf1aa
+    parentId: wrk_4fd3dd9f7ac749e9b73b3ab52842712f
     modified: 1730243042052
     created: 1729970452832
     url: http://127.0.0.1:8000/api/token/
@@ -35,16 +35,16 @@ resources:
     settingRebuildPath: true
     settingFollowRedirects: global
     _type: request
-  - _id: wrk_9c5ea1429992444292b48e7ef5e2c40f
+  - _id: wrk_4fd3dd9f7ac749e9b73b3ab52842712f
     parentId: null
-    modified: 1727304073442
-    created: 1727304073442
+    modified: 1730391584248
+    created: 1730391584248
     name: my-spec.yaml
     description: ""
     scope: design
     _type: workspace
-  - _id: req_d2f2bfdbd6c247a78fe7a57d9891d793
-    parentId: fld_fee6999b275d4da9ad23c0586fe7073b
+  - _id: req_d7b117ae9ac24a159e1cd998484a3535
+    parentId: fld_3e0867a3977c4c308f450b261aedf926
     modified: 1730243862595
     created: 1730069424650
     url: http://127.0.0.1:8000/api/tickets/
@@ -81,8 +81,8 @@ resources:
     settingRebuildPath: true
     settingFollowRedirects: global
     _type: request
-  - _id: fld_fee6999b275d4da9ad23c0586fe7073b
-    parentId: wrk_9c5ea1429992444292b48e7ef5e2c40f
+  - _id: fld_3e0867a3977c4c308f450b261aedf926
+    parentId: wrk_4fd3dd9f7ac749e9b73b3ab52842712f
     modified: 1730244041057
     created: 1729973611898
     name: Ticket
@@ -91,8 +91,8 @@ resources:
     environmentPropertyOrder: null
     metaSortKey: -1730029079169
     _type: request_group
-  - _id: req_e4a8feee59424ea0b9fbed52ab40f097
-    parentId: fld_fee6999b275d4da9ad23c0586fe7073b
+  - _id: req_dd671a49e5a74b58a3a85c7f87093a9b
+    parentId: fld_3e0867a3977c4c308f450b261aedf926
     modified: 1730029162945
     created: 1729970908122
     url: http://127.0.0.1:8000/api/tickets/
@@ -116,8 +116,8 @@ resources:
     settingRebuildPath: true
     settingFollowRedirects: global
     _type: request
-  - _id: req_8d4aaea9f6f3448db58fa85fbf47519d
-    parentId: fld_fee6999b275d4da9ad23c0586fe7073b
+  - _id: req_8dae4b021fa9461da76d995d4f0e8874
+    parentId: fld_3e0867a3977c4c308f450b261aedf926
     modified: 1730243964998
     created: 1730243960784
     url: http://127.0.0.1:8000/api/tickets/4/
@@ -141,8 +141,8 @@ resources:
     settingRebuildPath: true
     settingFollowRedirects: global
     _type: request
-  - _id: req_09285dfdd2164cf08882395df713586e
-    parentId: fld_fee6999b275d4da9ad23c0586fe7073b
+  - _id: req_d0dc6e6ab2f342a69110279c135d71f3
+    parentId: fld_3e0867a3977c4c308f450b261aedf926
     modified: 1730243874681
     created: 1730243837934
     url: http://127.0.0.1:8000/api/tickets/4/
@@ -166,8 +166,8 @@ resources:
     settingRebuildPath: true
     settingFollowRedirects: global
     _type: request
-  - _id: req_5b1bffb308b540b091d59516c0e30607
-    parentId: fld_a224064d562947f1a3307f5e42bcab00
+  - _id: req_5f7c218c61dd4903b427e1fe9a9239df
+    parentId: fld_b62287a3eee341c28a231586d295cb6f
     modified: 1729948425358
     created: 1727305788788
     url: http://127.0.0.1:8000/api/parkings/
@@ -198,8 +198,8 @@ resources:
     settingRebuildPath: true
     settingFollowRedirects: global
     _type: request
-  - _id: fld_a224064d562947f1a3307f5e42bcab00
-    parentId: wrk_9c5ea1429992444292b48e7ef5e2c40f
+  - _id: fld_b62287a3eee341c28a231586d295cb6f
+    parentId: wrk_4fd3dd9f7ac749e9b73b3ab52842712f
     modified: 1730244033599
     created: 1729946685007
     name: Estacionamento
@@ -208,8 +208,8 @@ resources:
     environmentPropertyOrder: null
     metaSortKey: -1730029079144
     _type: request_group
-  - _id: req_1806618d917d4fd79a0e9c6fddbd5d4f
-    parentId: fld_a224064d562947f1a3307f5e42bcab00
+  - _id: req_1e54dd7d0ad34f4cbcabf7dd059a6d06
+    parentId: fld_b62287a3eee341c28a231586d295cb6f
     modified: 1729946707094
     created: 1729945720304
     url: http://127.0.0.1:8000/api/parkings/
@@ -232,8 +232,8 @@ resources:
     settingRebuildPath: true
     settingFollowRedirects: global
     _type: request
-  - _id: req_51e89e9cafc948b088b3f0a43b4e2c1d
-    parentId: fld_a224064d562947f1a3307f5e42bcab00
+  - _id: req_d10fb274960a4078a0333c08c4889eb1
+    parentId: fld_b62287a3eee341c28a231586d295cb6f
     modified: 1730243985665
     created: 1729945885577
     url: http://127.0.0.1:8000/api/parkings/4/
@@ -264,8 +264,8 @@ resources:
     settingRebuildPath: true
     settingFollowRedirects: global
     _type: request
-  - _id: req_6706b958985941a7b241d371fe88091a
-    parentId: fld_a224064d562947f1a3307f5e42bcab00
+  - _id: req_3bce965b662c4fdbb5d4ad304286b6de
+    parentId: fld_b62287a3eee341c28a231586d295cb6f
     modified: 1729948149105
     created: 1729945862198
     url: http://127.0.0.1:8000/api/parkings/3/
@@ -288,8 +288,8 @@ resources:
     settingRebuildPath: true
     settingFollowRedirects: global
     _type: request
-  - _id: req_e3d28271a3fe4d0a9f88dc2d2995e3b3
-    parentId: fld_514beace467f475987bbe48369e4842c
+  - _id: req_1143938e73304c5aa36298e974a0857a
+    parentId: fld_59676042ab8f40739db1009384d089e2
     modified: 1729948810613
     created: 1729946741403
     url: http://127.0.0.1:8000/api/subscription-plans/
@@ -321,8 +321,8 @@ resources:
     settingRebuildPath: true
     settingFollowRedirects: global
     _type: request
-  - _id: fld_514beace467f475987bbe48369e4842c
-    parentId: wrk_9c5ea1429992444292b48e7ef5e2c40f
+  - _id: fld_59676042ab8f40739db1009384d089e2
+    parentId: wrk_4fd3dd9f7ac749e9b73b3ab52842712f
     modified: 1730244036142
     created: 1729946720729
     name: Assinatura
@@ -331,8 +331,8 @@ resources:
     environmentPropertyOrder: null
     metaSortKey: -1730029079119
     _type: request_group
-  - _id: req_8571e5a34a5842829ec1bea9e3561636
-    parentId: fld_514beace467f475987bbe48369e4842c
+  - _id: req_c2058362d257430b9192fcfa4b857836
+    parentId: fld_59676042ab8f40739db1009384d089e2
     modified: 1729946866531
     created: 1729946861073
     url: http://127.0.0.1:8000/api/subscription-plans/
@@ -355,8 +355,8 @@ resources:
     settingRebuildPath: true
     settingFollowRedirects: global
     _type: request
-  - _id: req_422b6e1677da491d95474793f671f81c
-    parentId: fld_514beace467f475987bbe48369e4842c
+  - _id: req_98da48a5e5b2438184077c231d0448e7
+    parentId: fld_59676042ab8f40739db1009384d089e2
     modified: 1730243975994
     created: 1729946988763
     url: http://127.0.0.1:8000/api/subscription-plans/1/
@@ -388,8 +388,8 @@ resources:
     settingRebuildPath: true
     settingFollowRedirects: global
     _type: request
-  - _id: req_e66412e4b77b43ee8eb3a8d1cde74f6f
-    parentId: fld_514beace467f475987bbe48369e4842c
+  - _id: req_1918813004404ffa81a335dac976ade6
+    parentId: fld_59676042ab8f40739db1009384d089e2
     modified: 1729948653839
     created: 1729946920819
     url: http://127.0.0.1:8000/api/subscription-plans/2/
@@ -412,8 +412,8 @@ resources:
     settingRebuildPath: true
     settingFollowRedirects: global
     _type: request
-  - _id: req_acbaa7de1552457a95b58c498060d955
-    parentId: fld_a42b8384635b4ba19913dd5c1322da98
+  - _id: req_826bc526ae404c93bb89df15f5f2160d
+    parentId: fld_0954ed7e21264055a909fd9d5fbd3ef9
     modified: 1730034899001
     created: 1729967980133
     url: http://127.0.0.1:8000/api/subscribers/
@@ -444,8 +444,8 @@ resources:
     settingRebuildPath: true
     settingFollowRedirects: global
     _type: request
-  - _id: fld_a42b8384635b4ba19913dd5c1322da98
-    parentId: wrk_9c5ea1429992444292b48e7ef5e2c40f
+  - _id: fld_0954ed7e21264055a909fd9d5fbd3ef9
+    parentId: wrk_4fd3dd9f7ac749e9b73b3ab52842712f
     modified: 1730244038247
     created: 1729967990085
     name: Assinante
@@ -454,8 +454,8 @@ resources:
     environmentPropertyOrder: null
     metaSortKey: -1730029079106.5
     _type: request_group
-  - _id: req_88074c2e0a60441593124c54f1b765be
-    parentId: fld_a42b8384635b4ba19913dd5c1322da98
+  - _id: req_01d8346497604629929594a216dcafed
+    parentId: fld_0954ed7e21264055a909fd9d5fbd3ef9
     modified: 1730030674156
     created: 1730030667176
     url: http://127.0.0.1:8000/api/subscribers/
@@ -478,8 +478,8 @@ resources:
     settingRebuildPath: true
     settingFollowRedirects: global
     _type: request
-  - _id: req_73aaf80fbcc8478a82aa17cf43ee955d
-    parentId: fld_a42b8384635b4ba19913dd5c1322da98
+  - _id: req_77194143ba9446ae8e584dd73f59ed51
+    parentId: fld_0954ed7e21264055a909fd9d5fbd3ef9
     modified: 1730244109044
     created: 1730244106393
     url: http://127.0.0.1:8000/api/subscribers/
@@ -502,9 +502,9 @@ resources:
     settingRebuildPath: true
     settingFollowRedirects: global
     _type: request
-  - _id: req_0d93932619434bfa8cca41f3e198df34
-    parentId: fld_a42b8384635b4ba19913dd5c1322da98
-    modified: 1730032986838
+  - _id: req_728544a0142d41f48d2571523137eee5
+    parentId: fld_0954ed7e21264055a909fd9d5fbd3ef9
+    modified: 1730456381735
     created: 1729968346812
     url: http://127.0.0.1:8000/api/subscriber/available-parkings/
     name: Estacionamento Disponível para Assinantes
@@ -517,11 +517,6 @@ resources:
         value: insomnia/10.0.0
         id: pair_520c2295025a4e039de0b8f09ca29aa7
         disabled: false
-      - id: pair_7cd9f2834e184e969907cae4ece09f67
-        name: HTTP_AUTHORIZATION
-        value: Token bf59e4593f40243e01825877df20af92a908ac98
-        description: ""
-        disabled: false
     authentication: {}
     metaSortKey: -1729957372534
     isPrivate: false
@@ -533,8 +528,8 @@ resources:
     settingRebuildPath: true
     settingFollowRedirects: global
     _type: request
-  - _id: req_af8df72f7fc641dd9c6ecc268e3ac0ed
-    parentId: fld_dbee050449df4e59bcf6983514ac46c5
+  - _id: req_6bcc2a6d29bd4d3192433c016cf7b8c1
+    parentId: fld_9acf76eb274a48d1aac337f328ff735e
     modified: 1730029097848
     created: 1730028556412
     url: http://127.0.0.1:8000/api/parking-spaces/pcd/
@@ -557,8 +552,8 @@ resources:
     settingRebuildPath: true
     settingFollowRedirects: global
     _type: request
-  - _id: fld_dbee050449df4e59bcf6983514ac46c5
-    parentId: wrk_9c5ea1429992444292b48e7ef5e2c40f
+  - _id: fld_9acf76eb274a48d1aac337f328ff735e
+    parentId: wrk_4fd3dd9f7ac749e9b73b3ab52842712f
     modified: 1730029079094
     created: 1730029079094
     name: Vagas PCD
@@ -567,8 +562,8 @@ resources:
     environmentPropertyOrder: null
     metaSortKey: -1730029079094
     _type: request_group
-  - _id: req_ccad525346a941389464ec7129ce826a
-    parentId: fld_c9ac11e17d664e0aab0a61619d6ce8a1
+  - _id: req_e33ea44f162742edbc738cd70586413f
+    parentId: fld_da6af3f60a524efe8c12645380d9294e
     modified: 1730034610762
     created: 1730033213797
     url: http://127.0.0.1:8000/api/cars/
@@ -603,8 +598,8 @@ resources:
     settingRebuildPath: true
     settingFollowRedirects: global
     _type: request
-  - _id: fld_c9ac11e17d664e0aab0a61619d6ce8a1
-    parentId: wrk_9c5ea1429992444292b48e7ef5e2c40f
+  - _id: fld_da6af3f60a524efe8c12645380d9294e
+    parentId: wrk_4fd3dd9f7ac749e9b73b3ab52842712f
     modified: 1730244029749
     created: 1730034604193
     name: Carro Assinante
@@ -613,8 +608,8 @@ resources:
     environmentPropertyOrder: null
     metaSortKey: -1729946702868
     _type: request_group
-  - _id: req_ad2e9a5d3de84f1395d78abb2330a25e
-    parentId: fld_c9ac11e17d664e0aab0a61619d6ce8a1
+  - _id: req_c7aa22a41c7649d5af28e249cfb2d919
+    parentId: fld_da6af3f60a524efe8c12645380d9294e
     modified: 1730034690898
     created: 1730034642536
     url: http://127.0.0.1:8000/api/cars/
@@ -637,8 +632,8 @@ resources:
     settingRebuildPath: true
     settingFollowRedirects: global
     _type: request
-  - _id: req_1523646ae58e4c5ba8e6e78518a52339
-    parentId: fld_c9ac11e17d664e0aab0a61619d6ce8a1
+  - _id: req_ec3bd537292647819a9d9722f0cf34d8
+    parentId: fld_da6af3f60a524efe8c12645380d9294e
     modified: 1730034808601
     created: 1730034804217
     url: http://127.0.0.1:8000/api/cars/
@@ -661,8 +656,8 @@ resources:
     settingRebuildPath: true
     settingFollowRedirects: global
     _type: request
-  - _id: req_81b35fd4617a4ab9b846c13657fa0585
-    parentId: fld_c9ac11e17d664e0aab0a61619d6ce8a1
+  - _id: req_04aebc81219c4b1d9cf63903d1157040
+    parentId: fld_da6af3f60a524efe8c12645380d9294e
     modified: 1730034728464
     created: 1730034708621
     url: http://127.0.0.1:8000/api/cars/
@@ -685,8 +680,8 @@ resources:
     settingRebuildPath: true
     settingFollowRedirects: global
     _type: request
-  - _id: env_f71fdc2aae55fdd341219f7b3a35977e59c48bdb
-    parentId: wrk_9c5ea1429992444292b48e7ef5e2c40f
+  - _id: env_b9d6ceb77dbb45318574f44ed202f765
+    parentId: wrk_4fd3dd9f7ac749e9b73b3ab52842712f
     modified: 1727304073451
     created: 1727304073451
     name: Base Environment
@@ -696,8 +691,8 @@ resources:
     isPrivate: false
     metaSortKey: 1727304073451
     _type: environment
-  - _id: jar_f71fdc2aae55fdd341219f7b3a35977e59c48bdb
-    parentId: wrk_9c5ea1429992444292b48e7ef5e2c40f
+  - _id: jar_6736ab9c18ca4d12bea754bb593999ec
+    parentId: wrk_4fd3dd9f7ac749e9b73b3ab52842712f
     modified: 1729973661194
     created: 1727304073455
     name: Default Jar
@@ -714,10 +709,10 @@ resources:
         sameSite: lax
         id: 2743e898-6b32-427c-8a8c-fcd1999931d5
     _type: cookie_jar
-  - _id: spc_b0fac498f94a44a2b5f3b931ea238f37
-    parentId: wrk_9c5ea1429992444292b48e7ef5e2c40f
-    modified: 1729884606861
-    created: 1727304073447
+  - _id: spc_afed46e89c844e95a07ed65e3d6e7ed4
+    parentId: wrk_4fd3dd9f7ac749e9b73b3ab52842712f
+    modified: 1730391584253
+    created: 1730391584252
     fileName: my-spec.yaml
     contents: ""
     contentType: yaml
